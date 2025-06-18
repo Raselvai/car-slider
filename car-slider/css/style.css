@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  background: #060702;
+  color: #ffffff;
+}
+
+.car_wrapper {
+	padding: 80px 0;
+}
+
+.car_wrapper .container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.car_wrapper .text_center {
+	text-align: center;
+}
+
+.car_wrapper span {
+	font-size: 13px;
+	height: 25px;
+	padding: 0 15px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #ff2c3b;
+	background: rgb(255 44 59 / 10%);
+	text-transform: uppercase;
+	font-family: "Inter", sans-serif;
+	border-radius: 20px;
+}
+
+.car_wrapper h2 {
+	font-size: 44px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 20px;
+	font-family: "Outfit", sans-serif;
+}
+
+.car_wrapper .car_item {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 80px;
+    width: 180px;
+}
+
+.car_wrapper .car_item p {
+	font-size: 16px;
+	font-family: "Outfit", sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
